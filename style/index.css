@@ -1,0 +1,59 @@
+:root {
+    --Light--gray: hsl(212, 45%, 89%);
+    --White: hsl(0, 0%, 100%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
+    --text-h1: 'Secular One', sans-serif;
+    --text-p: 'Staatliches', cursive;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&family=Staatliches&display=swap');
+
+body {
+    background-color: var(--Light--gray);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    height: 250px;
+    width: 250px;
+    border-radius: 15px;
+    margin: 15px 15px 0 15px;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 300px;
+    background-color: var(--White);
+    border-radius: 15px;
+    margin: 100px 300px;
+    -webkit-box-shadow: -4px 6px 5px -3px rgba(0,0,0,0.38);
+    -moz-box-shadow: -4px 6px 5px -3px rgba(0,0,0,0.38);
+    box-shadow: -4px 6px 5px -3px rgba(0,0,0,0.38);
+}
+.box-text{
+    font-family: var(--text-h1);
+    color: var(--Dark-blue);     
+    text-align: center;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+p {
+    font-family: var(--text-p);
+    color: var(--Grayish-blue);
+    font-weight: 400;;
+}
+
